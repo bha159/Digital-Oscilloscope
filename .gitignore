@@ -1,0 +1,6 @@
+incremental_db
+db
+.qsys_edit
+*.qpf
+*.qsys
+*.sopcinfo

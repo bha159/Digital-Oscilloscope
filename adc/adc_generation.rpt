@@ -1,0 +1,17 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Bharat\Documents\Quartus\DSO\adc.qsys --synthesis=VERILOG --output-directory=C:\Users\Bharat\Documents\Quartus\DSO\adc\synthesis --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading DSO/adc.qsys
+Progress: Reading input file
+Progress: Adding adc_mega_0 [altera_up_avalon_adc_mega 16.1]
+Progress: Parameterizing module adc_mega_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: adc: Generating adc "adc" for QUARTUS_SYNTH
+Info: adc_mega_0: Starting Generation of ADC Controller for DE-series Board
+Info: adc_mega_0: C:/intelfpga_lite/16.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v C:/Users/Bharat/AppData/Local/Temp/alt7603_6103288443176126641.dir/0001_sopcgen/adc_adc_mega_0.v
+Info: adc_mega_0: "adc" instantiated altera_up_avalon_adc_mega "adc_mega_0"
+Info: adc: Done "adc" with 2 modules, 3 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
