@@ -4,3 +4,5 @@ db
 *.qpf
 *.qsys
 *.sopcinfo
+output_files
+work

@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Mar 14 03:17:37 2018
+Analysis & Synthesis Status : Successful - Mon May 07 03:28:50 2018
 Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 Revision Name : DSO
 Top-level Entity Name : DSO
 Family : Cyclone IV E
-Total logic elements : 125
-    Total combinational functions : 105
+Total logic elements : 119
+    Total combinational functions : 99
     Dedicated logic registers : 83
 Total registers : 83
 Total pins : 22

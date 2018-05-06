@@ -1,5 +1,5 @@
 Flow report for DSO
-Wed Mar 14 03:18:28 2018
+Mon May 07 03:29:48 2018
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -41,15 +41,15 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Mar 14 03:18:15 2018       ;
+; Flow Status                        ; Successful - Mon May 07 03:29:38 2018       ;
 ; Quartus Prime Version              ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                      ; DSO                                         ;
 ; Top-level Entity Name              ; DSO                                         ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 125 / 22,320 ( < 1 % )                      ;
-;     Total combinational functions  ; 106 / 22,320 ( < 1 % )                      ;
+; Total logic elements               ; 119 / 22,320 ( < 1 % )                      ;
+;     Total combinational functions  ; 100 / 22,320 ( < 1 % )                      ;
 ;     Dedicated logic registers      ; 83 / 22,320 ( < 1 % )                       ;
 ; Total registers                    ; 83                                          ;
 ; Total pins                         ; 22 / 154 ( 14 % )                           ;
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/14/2018 03:16:38 ;
+; Start date & time ; 05/07/2018 03:28:12 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DSO                 ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ agreement for further details.
 +-------------------------------------+-------------------------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                                 ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+-------------------------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 255102176684901.152097399749260                       ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 255102176684901.152564029228760                       ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                    ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                     ; --            ; --          ; --         ;
 ; MISC_FILE                           ; adc/synthesis/../adc.cmp                              ; --            ; --          ; --         ;
@@ -100,11 +100,11 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:03     ; 1.0                     ; 616 MB              ; 00:01:07                           ;
-; Fitter                    ; 00:00:24     ; 1.0                     ; 1136 MB             ; 00:00:24                           ;
-; Assembler                 ; 00:00:09     ; 1.0                     ; 573 MB              ; 00:00:08                           ;
-; TimeQuest Timing Analyzer ; 00:00:11     ; 1.0                     ; 649 MB              ; 00:00:08                           ;
-; Total                     ; 00:01:47     ; --                      ; --                  ; 00:01:47                           ;
+; Analysis & Synthesis      ; 00:00:38     ; 1.0                     ; 676 MB              ; 00:01:01                           ;
+; Fitter                    ; 00:00:29     ; 1.0                     ; 1136 MB             ; 00:00:17                           ;
+; Assembler                 ; 00:00:07     ; 1.0                     ; 573 MB              ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:08     ; 1.0                     ; 648 MB              ; 00:00:06                           ;
+; Total                     ; 00:01:22     ; --                      ; --                  ; 00:01:29                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
