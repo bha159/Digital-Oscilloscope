@@ -10,7 +10,9 @@ module DSO(CLOCK_50, KEY, SW, LED, ADC_SCLK, ADC_CS_N, ADC_SDAT, ADC_SADDR, hsyn
 	output wire [2:0] rgb;
 
 	//Parameters
-	localparam scale = 0.1171;
+	localparam a = 480;
+	localparam b = 2**12;
+	localparam scale = a/b;
 
 	//Assignments
 	wire [11:0] values [7:0];

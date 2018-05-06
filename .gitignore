@@ -3,6 +3,8 @@ db
 .qsys_edit
 *.qpf
 *.qsys
+*.mpf
+*.qws
 *.sopcinfo
 output_files
 work

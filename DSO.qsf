@@ -96,6 +96,7 @@ set_location_assignment PIN_D3 -to rgb[0]
 set_location_assignment PIN_C3 -to rgb[1]
 set_location_assignment PIN_A3 -to rgb[2]
 set_location_assignment PIN_B4 -to vsync
+set_global_assignment -name VERILOG_FILE dualport.v
 set_global_assignment -name VERILOG_FILE sync.v
 set_global_assignment -name QIP_FILE adc/synthesis/adc.qip
 set_global_assignment -name VERILOG_FILE DSO.v
