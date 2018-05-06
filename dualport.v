@@ -1,13 +1,14 @@
 module dualport
-#(
-	parameter addr_width = 15,
-			  data_width = 12
-);
+#(parameter addr_width = 15, data_width = 12)
 (input wire clock,
- input wire [addr_width-1:0] addr_a, addr_b,
- input wire we_a, we_b,
- input wire [data_width-1:0] in_a, in_b,
- output reg [data_width-1:0] out_a, out_b
+ input wire [addr_width-1:0] addr_a,
+ input wire [addr_width-1:0] addr_b,
+ input wire we_a,
+ input wire we_b,
+ input wire [data_width-1:0] in_a,
+ input wire [data_width-1:0] in_b,
+ output reg [data_width-1:0] out_a,
+ output reg [data_width-1:0] out_b
  );
 
     //memory
