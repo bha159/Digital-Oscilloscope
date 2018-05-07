@@ -1,5 +1,5 @@
 module dualport
-#(parameter addr_width = 15, data_width = 12)
+#(parameter addr_width = 17, data_width = 12)
 (input wire clock,
  input wire [addr_width-1:0] addr_a,
  input wire [addr_width-1:0] addr_b,
