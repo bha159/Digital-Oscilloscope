@@ -1,5 +1,5 @@
 module dualport
-#(parameter addr_width = 17, data_width = 12)
+#(parameter addr_width = 10, data_width = 12)//prev_value = 16
 (input wire clock,
  input wire [addr_width-1:0] addr_a,
  input wire [addr_width-1:0] addr_b,
@@ -12,7 +12,7 @@ module dualport
  );
 
     //memory
-    reg [data_width-1:0] ram [0:2**addr_width-1];
+    reg [data_width-1:0] ram [0:639];
 
     always @(posedge clock)
     begin
